@@ -1,0 +1,272 @@
+@import "https://fonts.googleapis.com/css?family=Concert+One:400|Crushed:400"; 
+
+body {
+  background: #96A2A2;
+}
+
+/* PAGE HEADER */
+header {
+  width: 100%;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+  text-align: center;
+  text-transform: uppercase;
+  
+  letter-spacing: 10px;
+  
+  padding: 10px;
+  
+  color: white;
+  background: #004040;
+  
+  font-size: 18px;
+  font-family: 'Concert One', 'Arial', display;
+  
+  border-bottom: inset 2px #FFFFFF;
+  box-shadow: 0px 0px 5px #000000;
+  
+  box-sizing: border-box;
+  
+  z-index: 10;
+}
+
+/* PAGE FOOTER */
+footer {
+  width: 100%;
+  
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  
+  padding: 10px;
+  
+  color: white;
+  background: #004040;
+  
+  text-align: center;
+  
+  font-size: 10px;
+  font-family: 'Verdana', monospace;
+  
+  border-top: outset 2px #FFFFFF;
+  box-shadow: 0px 0px 5px #000000;
+  
+  box-sizing: border-box;
+  
+  z-index: 10;
+}
+
+/* CONTENT LAYER */
+#content {
+  margin: auto;
+  
+  width: 100%;
+  max-width: 1600px;
+  
+  font-size: 12px;
+  font-family: 'Verdana', 'Arial', display;
+  
+  padding-right: 25px;
+  padding-left: 25px;
+  
+  box-sizing: border-box;
+}
+
+/* SUMMARY BOX */
+#summary .container {
+  background: #008080;
+  
+  width: 100%;
+  min-height: 190px;
+  
+  margin-top: 70px;
+  margin-bottom: 25px;
+  
+  padding: 35px;
+  
+  border-radius: 25px;
+  box-sizing: border-box;
+  
+  box-shadow: 0px 0px 5px #666666;
+  
+  color: #FFFFFF;
+  
+  font-family: 'Times New Roman', serif;
+  font-size: 18px;
+  line-height: 30px;
+  
+  width: 100%;
+  padding-right: 150px;
+  
+  font-style: italic;
+  text-align: center;
+  
+  text-shadow: 0px 0px 5px #004040;
+}
+
+#summary .container .img {
+  float: right;
+  margin-right: -125px;
+  margin-top: -15px;
+  
+  width: 100px;
+  height: 150px;
+  
+  box-sizing: border-box;
+  
+  border: solid 2px #FFFFFF;
+  box-shadow: 0px 0px 10px #FFFFFF;
+  border-radius: 50px 50px 20px 20px;
+  background: url(../img/foto_perfil_2.jpeg) no-repeat;
+
+  background-size: cover;
+  
+  transform: rotateY(180deg);
+  
+  opacity: 0.8;
+  transition: transform 1s, border-color 1s, opacity 1s;
+}
+
+#summary .container .img:hover {
+  opacity: 1;
+  border-color: #555555;
+  transform: rotateY(0deg);
+  transition: all 1s;
+}
+
+#summary .container em {
+  font-weight: bold;
+}
+
+/* NAVIGATION */
+#nav button, button {
+  width: 150px;
+  font-size: 12px;
+  background: #C0C0C0;
+  border: 0px;
+  padding: 5px;
+  border-radius: 10px 10px 0px 0px;
+  border-bottom: 1px dotted #CCCCCC;
+  
+  transition: background 0.5s;
+}
+
+#nav button:hover {
+  background: #FFDEC1;
+  transition: background 0.5s;
+}
+
+#nav button.selected {
+  background: #FFFFC0;
+}
+
+/* TEXT BOXES */
+.box {
+  background: #FFFFF7;
+  
+  width: 100%;
+  
+  margin-bottom: 60px;
+  
+  padding: 25px;
+  
+  border-radius: 0px 10px 10px 10px;
+  box-sizing: border-box;
+}
+
+.box h1 {
+  border-bottom: 2px solid #008080;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  color: #004040;
+}
+
+.box h2 {
+  font-size: 14px;
+}
+
+/* TIMELINE TABLE */
+table.timeline {
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+table.timeline tr td {
+  vertical-align: top;
+}
+
+table.timeline tr td:first-child {
+  width: 100px;
+  font-weight: bold;
+  color: #666666;
+}
+
+table.timeline tr td:nth-child(2) {
+  font-size: 11px;
+  line-height: 15px;
+  padding-bottom: 15px;
+}
+
+table.timeline tr td:nth-child(2) strong {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-size: 13px;
+}
+
+/* MISC */
+ul {
+  list-style-type: circle;
+  line-height: 20px; 
+}
+
+a {
+  color: #FFD543;
+  text-decoration: none;
+  transition: all 1s;
+}
+
+.box a {
+  color: #8D2A25;
+}
+
+a:hover {
+  color: #E38D86;
+  transition: all 1s;
+}
+
+.box span {
+  color: #8D6225;
+}
+
+/* BG IMG */
+.bg_img {
+  position: fixed;
+  
+  width: 500px; 
+  height: 500px;
+  
+  background: url( http://i29.photobucket.com/albums/c265/Natsuko_Kuroigawa/bg_flower_zps6be9cafc.png) no-repeat;
+  background-size: cover;
+  background-position: -50px -50px;
+  
+  opacity: 0.3;
+  
+  z-index: -10;
+}
+
+#bg_img_right {
+  bottom: 0;
+  right: 0;
+  transform: rotate(180deg);  
+}
+
+#bg_img_left {
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,16 @@
+[04-Jun-2023 15:49:01 UTC] PHP Warning:  Use of undefined constant nombre - assumed 'nombre' (this will throw an Error in a future version of PHP) in /home/qaseduc/public_html/jorquera/cumpleanos_2.php on line 54
+[04-Jun-2023 20:10:59 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/qaseduc/public_html/jorquera/cumpleaños.php on line 184
+[04-Jun-2023 20:11:19 Etc/UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/qaseduc/public_html/jorquera/cumpleaños.php on line 134
+[04-Jun-2023 20:11:19 Etc/UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/qaseduc/public_html/jorquera/cumpleaños.php on line 134
+[04-Jun-2023 20:11:19 Etc/UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/qaseduc/public_html/jorquera/cumpleaños.php on line 134
+[04-Jun-2023 20:11:19 Etc/UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/qaseduc/public_html/jorquera/cumpleaños.php on line 134
+[04-Jun-2023 20:12:23 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/qaseduc/public_html/jorquera/cumpleaños.php on line 126
+[04-Jun-2023 20:12:23 UTC] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/qaseduc/public_html/jorquera/cumpleaños.php on line 126
+[04-Jun-2023 20:12:23 UTC] PHP Warning:  require(vendor/autoload.php): failed to open stream: No such file or directory in /home/qaseduc/public_html/jorquera/cumpleaños.php on line 126
+[04-Jun-2023 20:12:23 UTC] PHP Fatal error:  require(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/qaseduc/public_html/jorquera/cumpleaños.php on line 126
+[04-Jun-2023 20:14:58 UTC] PHP Warning:  require(composer.json): failed to open stream: No such file or directory in /home/qaseduc/public_html/jorquera/cumpleaños.php on line 126
+[04-Jun-2023 20:14:58 UTC] PHP Fatal error:  require(): Failed opening required 'composer.json' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/qaseduc/public_html/jorquera/cumpleaños.php on line 126
+[04-Jun-2023 20:14:59 UTC] PHP Warning:  require(composer.json): failed to open stream: No such file or directory in /home/qaseduc/public_html/jorquera/cumpleaños.php on line 126
+[04-Jun-2023 20:14:59 UTC] PHP Fatal error:  require(): Failed opening required 'composer.json' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/qaseduc/public_html/jorquera/cumpleaños.php on line 126
+[04-Jun-2023 20:15:09 UTC] PHP Warning:  require(../composer.json): failed to open stream: No such file or directory in /home/qaseduc/public_html/jorquera/cumpleaños.php on line 126
+[04-Jun-2023 20:15:09 UTC] PHP Fatal error:  require(): Failed opening required '../composer.json' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/qaseduc/public_html/jorquera/cumpleaños.php on line 126
